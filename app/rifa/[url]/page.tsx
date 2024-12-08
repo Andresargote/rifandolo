@@ -1,4 +1,5 @@
 import ParticipantsCounter from '@/app/components/ParticipantsCounter';
+import { Participate } from '@/app/components/Participate';
 import Image from 'next/image';
 import Balancer from 'react-wrap-balancer';
 
@@ -37,9 +38,7 @@ export default function Rifa() {
               o cuando se agoten los tickets disponibles.
             </p>
 
-            <button className='bg-orange font-bold text-white py-3 px-4 inline-block rounded-lg w-full text-center text-lg shadow-md transition-transform hover:scale-105 duration-300'>
-              ¡Participa gratis!
-            </button>
+            <Participate />
 
             <small className='block text-sm text-center'>
               Al participar, aceptas las políticas de esta rifa.
